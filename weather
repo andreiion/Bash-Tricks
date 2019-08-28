@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Add this to your to your /usr/bin/ folder
+# It is an amazing way to know the weather from your terminal
+
+city=$1
+
+curl http://v2.wttr.in/$city
